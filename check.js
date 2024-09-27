@@ -7,6 +7,7 @@ let win=19;
 let input=+prompt("gueess a number");
 if (input===win) {
     console.log("your guess is right!!!");
+    console.log("hello");
 
 } else {
     if (input<win) {
